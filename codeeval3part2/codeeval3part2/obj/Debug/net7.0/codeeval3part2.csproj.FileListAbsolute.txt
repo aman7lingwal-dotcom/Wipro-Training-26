@@ -1,0 +1,15 @@
+/Users/aman/Projects/Wipro-Training-26/codeeval3part2/codeeval3part2/bin/Debug/net7.0/codeeval3part2
+/Users/aman/Projects/Wipro-Training-26/codeeval3part2/codeeval3part2/bin/Debug/net7.0/codeeval3part2.deps.json
+/Users/aman/Projects/Wipro-Training-26/codeeval3part2/codeeval3part2/bin/Debug/net7.0/codeeval3part2.runtimeconfig.json
+/Users/aman/Projects/Wipro-Training-26/codeeval3part2/codeeval3part2/bin/Debug/net7.0/codeeval3part2.dll
+/Users/aman/Projects/Wipro-Training-26/codeeval3part2/codeeval3part2/bin/Debug/net7.0/codeeval3part2.pdb
+/Users/aman/Projects/Wipro-Training-26/codeeval3part2/codeeval3part2/obj/Debug/net7.0/codeeval3part2.csproj.AssemblyReference.cache
+/Users/aman/Projects/Wipro-Training-26/codeeval3part2/codeeval3part2/obj/Debug/net7.0/codeeval3part2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aman/Projects/Wipro-Training-26/codeeval3part2/codeeval3part2/obj/Debug/net7.0/codeeval3part2.AssemblyInfoInputs.cache
+/Users/aman/Projects/Wipro-Training-26/codeeval3part2/codeeval3part2/obj/Debug/net7.0/codeeval3part2.AssemblyInfo.cs
+/Users/aman/Projects/Wipro-Training-26/codeeval3part2/codeeval3part2/obj/Debug/net7.0/codeeval3part2.csproj.CoreCompileInputs.cache
+/Users/aman/Projects/Wipro-Training-26/codeeval3part2/codeeval3part2/obj/Debug/net7.0/codeeval3part2.dll
+/Users/aman/Projects/Wipro-Training-26/codeeval3part2/codeeval3part2/obj/Debug/net7.0/refint/codeeval3part2.dll
+/Users/aman/Projects/Wipro-Training-26/codeeval3part2/codeeval3part2/obj/Debug/net7.0/codeeval3part2.pdb
+/Users/aman/Projects/Wipro-Training-26/codeeval3part2/codeeval3part2/obj/Debug/net7.0/codeeval3part2.genruntimeconfig.cache
+/Users/aman/Projects/Wipro-Training-26/codeeval3part2/codeeval3part2/obj/Debug/net7.0/ref/codeeval3part2.dll
