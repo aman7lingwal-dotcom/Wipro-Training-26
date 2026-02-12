@@ -1,0 +1,15 @@
+/Users/aman/Projects/Wipro-Training-26/codeeval/codeeval/obj/Debug/net7.0/codeeval.csproj.AssemblyReference.cache
+/Users/aman/Projects/Wipro-Training-26/codeeval/codeeval/obj/Debug/net7.0/codeeval.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aman/Projects/Wipro-Training-26/codeeval/codeeval/obj/Debug/net7.0/codeeval.AssemblyInfoInputs.cache
+/Users/aman/Projects/Wipro-Training-26/codeeval/codeeval/obj/Debug/net7.0/codeeval.AssemblyInfo.cs
+/Users/aman/Projects/Wipro-Training-26/codeeval/codeeval/obj/Debug/net7.0/codeeval.csproj.CoreCompileInputs.cache
+/Users/aman/Projects/Wipro-Training-26/codeeval/codeeval/bin/Debug/net7.0/Codeeval
+/Users/aman/Projects/Wipro-Training-26/codeeval/Codeeval/bin/Debug/net7.0/Codeeval.deps.json
+/Users/aman/Projects/Wipro-Training-26/codeeval/Codeeval/bin/Debug/net7.0/Codeeval.runtimeconfig.json
+/Users/aman/Projects/Wipro-Training-26/codeeval/codeeval/bin/Debug/net7.0/Codeeval.dll
+/Users/aman/Projects/Wipro-Training-26/codeeval/codeeval/bin/Debug/net7.0/Codeeval.pdb
+/Users/aman/Projects/Wipro-Training-26/codeeval/codeeval/obj/Debug/net7.0/Codeeval.dll
+/Users/aman/Projects/Wipro-Training-26/codeeval/codeeval/obj/Debug/net7.0/refint/Codeeval.dll
+/Users/aman/Projects/Wipro-Training-26/codeeval/codeeval/obj/Debug/net7.0/Codeeval.pdb
+/Users/aman/Projects/Wipro-Training-26/codeeval/Codeeval/obj/Debug/net7.0/Codeeval.genruntimeconfig.cache
+/Users/aman/Projects/Wipro-Training-26/codeeval/Codeeval/obj/Debug/net7.0/ref/Codeeval.dll
