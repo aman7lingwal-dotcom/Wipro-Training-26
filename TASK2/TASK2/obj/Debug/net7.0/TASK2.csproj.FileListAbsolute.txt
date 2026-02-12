@@ -1,0 +1,12 @@
+/Users/aman/Projects/Wipro-Training-26/TASK2/TASK2/bin/Debug/net7.0/TASK2.deps.json
+/Users/aman/Projects/Wipro-Training-26/TASK2/TASK2/bin/Debug/net7.0/TASK2.dll
+/Users/aman/Projects/Wipro-Training-26/TASK2/TASK2/bin/Debug/net7.0/TASK2.pdb
+/Users/aman/Projects/Wipro-Training-26/TASK2/TASK2/obj/Debug/net7.0/TASK2.csproj.AssemblyReference.cache
+/Users/aman/Projects/Wipro-Training-26/TASK2/TASK2/obj/Debug/net7.0/TASK2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aman/Projects/Wipro-Training-26/TASK2/TASK2/obj/Debug/net7.0/TASK2.AssemblyInfoInputs.cache
+/Users/aman/Projects/Wipro-Training-26/TASK2/TASK2/obj/Debug/net7.0/TASK2.AssemblyInfo.cs
+/Users/aman/Projects/Wipro-Training-26/TASK2/TASK2/obj/Debug/net7.0/TASK2.csproj.CoreCompileInputs.cache
+/Users/aman/Projects/Wipro-Training-26/TASK2/TASK2/obj/Debug/net7.0/TASK2.dll
+/Users/aman/Projects/Wipro-Training-26/TASK2/TASK2/obj/Debug/net7.0/refint/TASK2.dll
+/Users/aman/Projects/Wipro-Training-26/TASK2/TASK2/obj/Debug/net7.0/TASK2.pdb
+/Users/aman/Projects/Wipro-Training-26/TASK2/TASK2/obj/Debug/net7.0/ref/TASK2.dll
