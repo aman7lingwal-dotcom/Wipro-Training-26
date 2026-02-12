@@ -1,0 +1,15 @@
+/Users/aman/Projects/DAY 1/TASK/obj/Debug/net7.0/TASK.csproj.AssemblyReference.cache
+/Users/aman/Projects/DAY 1/TASK/obj/Debug/net7.0/TASK.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aman/Projects/DAY 1/TASK/obj/Debug/net7.0/TASK.AssemblyInfoInputs.cache
+/Users/aman/Projects/DAY 1/TASK/obj/Debug/net7.0/TASK.AssemblyInfo.cs
+/Users/aman/Projects/DAY 1/TASK/obj/Debug/net7.0/TASK.csproj.CoreCompileInputs.cache
+/Users/aman/Projects/DAY 1/TASK/bin/Debug/net7.0/TASK
+/Users/aman/Projects/DAY 1/TASK/bin/Debug/net7.0/TASK.deps.json
+/Users/aman/Projects/DAY 1/TASK/bin/Debug/net7.0/TASK.runtimeconfig.json
+/Users/aman/Projects/DAY 1/TASK/bin/Debug/net7.0/TASK.dll
+/Users/aman/Projects/DAY 1/TASK/bin/Debug/net7.0/TASK.pdb
+/Users/aman/Projects/DAY 1/TASK/obj/Debug/net7.0/TASK.dll
+/Users/aman/Projects/DAY 1/TASK/obj/Debug/net7.0/refint/TASK.dll
+/Users/aman/Projects/DAY 1/TASK/obj/Debug/net7.0/TASK.pdb
+/Users/aman/Projects/DAY 1/TASK/obj/Debug/net7.0/TASK.genruntimeconfig.cache
+/Users/aman/Projects/DAY 1/TASK/obj/Debug/net7.0/ref/TASK.dll
