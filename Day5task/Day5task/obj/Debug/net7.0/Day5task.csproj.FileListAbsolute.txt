@@ -1,0 +1,12 @@
+/Users/aman/Projects/Day5task/Day5task/bin/Debug/net7.0/Day5task.deps.json
+/Users/aman/Projects/Day5task/Day5task/bin/Debug/net7.0/Day5task.dll
+/Users/aman/Projects/Day5task/Day5task/bin/Debug/net7.0/Day5task.pdb
+/Users/aman/Projects/Day5task/Day5task/obj/Debug/net7.0/Day5task.csproj.AssemblyReference.cache
+/Users/aman/Projects/Day5task/Day5task/obj/Debug/net7.0/Day5task.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aman/Projects/Day5task/Day5task/obj/Debug/net7.0/Day5task.AssemblyInfoInputs.cache
+/Users/aman/Projects/Day5task/Day5task/obj/Debug/net7.0/Day5task.AssemblyInfo.cs
+/Users/aman/Projects/Day5task/Day5task/obj/Debug/net7.0/Day5task.csproj.CoreCompileInputs.cache
+/Users/aman/Projects/Day5task/Day5task/obj/Debug/net7.0/Day5task.dll
+/Users/aman/Projects/Day5task/Day5task/obj/Debug/net7.0/refint/Day5task.dll
+/Users/aman/Projects/Day5task/Day5task/obj/Debug/net7.0/Day5task.pdb
+/Users/aman/Projects/Day5task/Day5task/obj/Debug/net7.0/ref/Day5task.dll
