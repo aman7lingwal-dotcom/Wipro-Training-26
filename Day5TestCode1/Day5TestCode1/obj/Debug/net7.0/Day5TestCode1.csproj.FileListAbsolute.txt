@@ -1,0 +1,15 @@
+/Users/aman/Projects/Wipro-Training-26/Day5TestCode1/Day5TestCode1/bin/Debug/net7.0/Day5TestCode1
+/Users/aman/Projects/Wipro-Training-26/Day5TestCode1/Day5TestCode1/bin/Debug/net7.0/Day5TestCode1.deps.json
+/Users/aman/Projects/Wipro-Training-26/Day5TestCode1/Day5TestCode1/bin/Debug/net7.0/Day5TestCode1.runtimeconfig.json
+/Users/aman/Projects/Wipro-Training-26/Day5TestCode1/Day5TestCode1/bin/Debug/net7.0/Day5TestCode1.dll
+/Users/aman/Projects/Wipro-Training-26/Day5TestCode1/Day5TestCode1/bin/Debug/net7.0/Day5TestCode1.pdb
+/Users/aman/Projects/Wipro-Training-26/Day5TestCode1/Day5TestCode1/obj/Debug/net7.0/Day5TestCode1.csproj.AssemblyReference.cache
+/Users/aman/Projects/Wipro-Training-26/Day5TestCode1/Day5TestCode1/obj/Debug/net7.0/Day5TestCode1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aman/Projects/Wipro-Training-26/Day5TestCode1/Day5TestCode1/obj/Debug/net7.0/Day5TestCode1.AssemblyInfoInputs.cache
+/Users/aman/Projects/Wipro-Training-26/Day5TestCode1/Day5TestCode1/obj/Debug/net7.0/Day5TestCode1.AssemblyInfo.cs
+/Users/aman/Projects/Wipro-Training-26/Day5TestCode1/Day5TestCode1/obj/Debug/net7.0/Day5TestCode1.csproj.CoreCompileInputs.cache
+/Users/aman/Projects/Wipro-Training-26/Day5TestCode1/Day5TestCode1/obj/Debug/net7.0/Day5TestCode1.dll
+/Users/aman/Projects/Wipro-Training-26/Day5TestCode1/Day5TestCode1/obj/Debug/net7.0/refint/Day5TestCode1.dll
+/Users/aman/Projects/Wipro-Training-26/Day5TestCode1/Day5TestCode1/obj/Debug/net7.0/Day5TestCode1.pdb
+/Users/aman/Projects/Wipro-Training-26/Day5TestCode1/Day5TestCode1/obj/Debug/net7.0/Day5TestCode1.genruntimeconfig.cache
+/Users/aman/Projects/Wipro-Training-26/Day5TestCode1/Day5TestCode1/obj/Debug/net7.0/ref/Day5TestCode1.dll
