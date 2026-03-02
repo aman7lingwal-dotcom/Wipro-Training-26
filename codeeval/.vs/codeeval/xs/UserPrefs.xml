@@ -1,4 +1,23 @@
 ﻿<Properties StartupConfiguration="{0DDA247F-F99A-4793-B67B-8B36B2299D6E}|Default">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Codeeval FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Codeeval PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="codeeval/Program.cs">
+    <Files>
+      <File FileName="Codeeval/Program.cs" Line="42" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Codeeval" expanded="True">
+            <Node name="Codeeval" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
