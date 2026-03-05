@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random User Fetch</title>
+  <style>
+    body { font-family: Arial; text-align: center; margin-top: 50px; }
+    img { border-radius: 50%; }
+    .user-info { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Random User Generator</h1>
+  <button id="getUserBtn">Get Random User</button>
+  <div class="user-info" id="userInfo"></div>
+
+  <script>
+    const button = document.getElementById("getUserBtn");
+    const userInfo = document.getElementById("userInfo");
+
+    button.addEventListener("click", () => {
+      fetch("https://randomuser.me/api/")
+        .then(res => res.json())
+        .then(data => {
+          const user = data.results[0];
+          userInfo.innerHTML = `
+            <h2>${user.name.title} ${user.name.first} ${user.name.last}</h2>
+            <p>Email: ${user.email}</p>
+            <img src="${user.picture.large}" alt="Profile Picture">
+          `;
+        })
+        .catch(err => {
+          userInfo.innerHTML = `<p>Error: ${err.message}</p>`;
+        });
+    });
+  </script>
+</body>
+</html>
