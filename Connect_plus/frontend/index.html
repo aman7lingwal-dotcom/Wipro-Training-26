@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ConnectPlus Frontend</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    body {
+      background-color: #f4f6f9;
+    }
+
+    .section-card {
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+      padding: 28px;
+    }
+
+    .kpi-card {
+      border: none;
+      border-radius: 16px;
+      color: white;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+      height: 100%;
+    }
+
+    .kpi-blue {
+      background: linear-gradient(135deg, #0d6efd, #4f8dfd);
+    }
+
+    .kpi-red {
+      background: linear-gradient(135deg, #dc3545, #ff6b6b);
+    }
+
+    .kpi-orange {
+      background: linear-gradient(135deg, #fd7e14, #ffb347);
+    }
+
+    .kpi-green {
+      background: linear-gradient(135deg, #198754, #49c27d);
+    }
+
+    .soft-card-blue {
+      background: #eef4ff;
+      border: none;
+      border-radius: 16px;
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+    }
+
+    .soft-card-green {
+      background: #eefcf4;
+      border: none;
+      border-radius: 16px;
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+    }
+
+    .placeholder-box {
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+      padding: 28px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#" onclick="showSection('dashboardSection')">ConnectPlus</a>
+
+      <div>
+        <button onclick="showSection('dashboardSection')" class="btn btn-outline-light me-2">Dashboard</button>
+        <button onclick="showSection('ticketSection')" class="btn btn-outline-light me-2">Tickets</button>
+        <button onclick="showSection('customerSection')" class="btn btn-outline-light me-2">Customers</button>
+        <button onclick="showSection('addCustomerSection')" class="btn btn-outline-light me-2">Add Customer</button>
+        <button onclick="showSection('addTicketSection')" class="btn btn-outline-light">Add Ticket</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Dashboard Section -->
+  <div id="dashboardSection" class="container mt-4">
+    <div class="section-card">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+          <h1 class="mb-1">Dashboard</h1>
+          <p class="text-muted mb-0">Quick overview of support operations</p>
+        </div>
+      </div>
+
+      <div class="row g-3 mb-4">
+        <div class="col-md-3">
+          <div class="card kpi-card kpi-blue">
+            <div class="card-body text-center">
+              <h6 class="mb-2">Total Tickets</h6>
+              <h2 id="totalTicketsCount" class="fw-bold">0</h2>
+              <small>All service requests</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card kpi-card kpi-red">
+            <div class="card-body text-center">
+              <h6 class="mb-2">Open Tickets</h6>
+              <h2 id="openTicketsCount" class="fw-bold">0</h2>
+              <small>Need attention</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card kpi-card kpi-orange">
+            <div class="card-body text-center">
+              <h6 class="mb-2">In Progress</h6>
+              <h2 id="inProgressTicketsCount" class="fw-bold">0</h2>
+              <small>Being worked on</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card kpi-card kpi-green">
+            <div class="card-body text-center">
+              <h6 class="mb-2">Resolved / Closed</h6>
+              <h2 id="closedTicketsCount" class="fw-bold">0</h2>
+              <small>Completed cases</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-3 mb-4">
+        <div class="col-md-6">
+          <div class="card soft-card-blue">
+            <div class="card-body text-center">
+              <h5 class="text-primary mb-2">Total Customers</h5>
+              <h2 id="totalCustomersCount" class="fw-bold">0</h2>
+              <small class="text-muted">Registered customer records</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card soft-card-green">
+            <div class="card-body text-center">
+              <h5 class="text-success mb-2">Total Agents</h5>
+              <h2 id="totalAgentsCount" class="fw-bold">0</h2>
+              <small class="text-muted">Available support agents</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card border-0 shadow-sm" style="border-radius: 16px;">
+        <div class="card-body">
+          <h4 class="mb-3">Recent Tickets</h4>
+
+          <div class="table-responsive">
+            <table class="table table-bordered table-hover align-middle">
+              <thead class="table-dark">
+                <tr>
+                  <th>Ticket ID</th>
+                  <th>Customer</th>
+                  <th>Status</th>
+                  <th>Description</th>
+                  <th>Created At</th>
+                </tr>
+              </thead>
+              <tbody id="recentTicketsTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tickets Section -->
+  <div id="ticketSection" class="container mt-4" style="display: none;">
+    <div class="section-card">
+      <h1 class="mb-4">All Tickets</h1>
+
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped align-middle">
+          <thead class="table-light">
+            <tr>
+              <th>Ticket ID</th>
+              <th>Customer</th>
+              <th>Category</th>
+              <th>Agent</th>
+              <th>Status</th>
+              <th>Description</th>
+              <th>Created At</th>
+              <th>Resolution Notes</th>
+              <th>Change Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="ticketTable"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Customers Section -->
+  <div id="customerSection" class="container mt-4" style="display: none;">
+    <div class="section-card">
+      <h1 class="mb-4">Customers</h1>
+
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped align-middle">
+          <thead class="table-light">
+            <tr>
+              <th>Customer ID</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Phone</th>
+            </tr>
+          </thead>
+          <tbody id="customerTableBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add Customer Section -->
+  <div id="addCustomerSection" class="container mt-4" style="display: none;">
+    <div class="section-card">
+      <h1 class="mb-4">Add Customer</h1>
+
+      <form id="addCustomerForm">
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" id="customerName" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" id="customerEmail" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Phone</label>
+        <input type="text" id="customerPhone" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Customer</button>
+</form>
+
+<p id="customerMessage" class="mt-2"></p>
+    </div>
+  </div>
+
+  <!-- Add Ticket Section -->
+  <div id="addTicketSection" class="container mt-4" style="display: none;">
+    <div class="section-card">
+      <h1 class="mb-4">Add Ticket</h1>
+
+      <form id="addTicketForm">
+        <div class="mb-3">
+          <label for="ticketCustomerId" class="form-label">Customer ID</label>
+          <input type="number" class="form-control" id="ticketCustomerId" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="ticketCategoryId" class="form-label">Category ID</label>
+          <input type="number" class="form-control" id="ticketCategoryId" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="ticketAgentId" class="form-label">Agent ID</label>
+          <input type="number" class="form-control" id="ticketAgentId" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="ticketStatusId" class="form-label">Status ID</label>
+          <input type="number" class="form-control" id="ticketStatusId" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="ticketDescription" class="form-label">Description</label>
+          <textarea class="form-control" id="ticketDescription" rows="4" required></textarea>
+        </div>
+
+        <div class="mb-3">
+          <label for="ticketResolutionNotes" class="form-label">Resolution Notes</label>
+          <textarea class="form-control" id="ticketResolutionNotes" rows="3"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-success">Add Ticket</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

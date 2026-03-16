@@ -1,0 +1,6 @@
+@ConnectPlus.API_HostAddress = http://localhost:5267
+
+GET {{ConnectPlus.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
